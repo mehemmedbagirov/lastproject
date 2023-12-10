@@ -1,0 +1,10 @@
+<svg width="44" height="52" viewBox="0 0 44 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="examinations-icon">
+<path id="Combined Shape" fill-rule="evenodd" clip-rule="evenodd" d="M17.8432 4C16.4819 4 15.3784 5.10356 15.3784 6.46486V7.89189H9.86486C7.17807 7.89189 5 10.0861 5 12.7928V47.0991C5 49.8058 7.17807 52 9.86486 52H39.0541C41.7408 52 43.9189 49.8058 43.9189 47.0991V12.7928C43.9189 10.0861 41.7408 7.89189 39.0541 7.89189H33.5405V6.46486C33.5405 5.10356 32.437 4 31.0757 4H17.8432Z" fill="#E6F5F6"/>
+<path id="Path" d="M29.1892 4.89191H35.0541C37.7408 4.89191 39.9189 7.08611 39.9189 9.79281V44.0991C39.9189 46.8058 37.7408 49 35.0541 49H5.86486C3.17807 49 1 46.8058 1 44.0991V9.79281C1 7.08611 3.17807 4.89191 5.86486 4.89191H11.7297" stroke="#6BC3CD" stroke-linejoin="round"/>
+<rect id="Rectangle" x="11.3784" y="1" width="18.1622" height="9.08108" rx="2.46486" stroke="#6BC3CD" stroke-linejoin="round"/>
+<path id="Path 2" d="M8.78381 21.7567H32.1352" stroke="#6BC3CD" stroke-linecap="round"/>
+<path id="Path 2_2" d="M8.78381 28.2433H32.1352" stroke="#6BC3CD" stroke-linecap="round"/>
+<path id="Path 2_3" d="M8.78381 34.7297H32.1352" stroke="#6BC3CD" stroke-linecap="round"/>
+</g>
+</svg>

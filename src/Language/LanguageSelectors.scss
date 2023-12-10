@@ -1,0 +1,15 @@
+.lang {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0.5rem;
+    right: 0.5rem;
+    padding: 2rem 1rem;
+    border-radius: 50%;
+    border: 0px;
+    background-color: dodgerblue;
+    color: white;
+    z-index: 9999999999;
+    cursor: pointer;
+}

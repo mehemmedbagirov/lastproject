@@ -1,0 +1,113 @@
+@media screen {
+  //! DashboardSideBar  DashboardSideBar DashboardSideBar DashboardSideBar DashboardSideBar DashboardSideBar
+.sections {
+  width: 7%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #089bab;
+  border-radius: 70px 30px 30px 70px;
+  position: sticky;
+  top: 0;
+
+  .section {
+    width: 88px;
+    height: 110px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .link {
+      width: 88px;
+      height: 145px;
+      border-radius: 50px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    .linkActive {
+      width: 88px;
+      height: 145px;
+      border-radius: 50px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background-color: white;
+      p {
+        color: #089bab !important;
+      }
+      img {
+        filter: invert(42%) sepia(70%) saturate(3900%) hue-rotate(154deg)
+          brightness(90%) contrast(90%);
+      }
+    }
+    p {
+      font-family: "Poppins", sans-serif;
+      margin-top: 5px;
+      color: white;
+    }
+  }
+}
+}
+
+@media screen and (max-width: 992px){
+   //! DashboardSideBar  DashboardSideBar DashboardSideBar DashboardSideBar DashboardSideBar DashboardSideBar
+.sections {
+  // width: 7%;
+  height: 10rem;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #089bab;
+  border-radius: 0px 0px 30px 30px;
+  position: sticky;
+  top: 0;
+  z-index: 99999;
+
+  .section {
+    width: 88px;
+    height: 110px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .link {
+      width: 88px;
+      height: 145px;
+      border-radius: 50px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    .linkActive {
+      width: 88px;
+      height: 145px;
+      border-radius: 50px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background-color: white;
+      p {
+        color: #089bab !important;
+      }
+      img {
+        filter: invert(42%) sepia(70%) saturate(3900%) hue-rotate(154deg)
+          brightness(90%) contrast(90%);
+      }
+    }
+    p {
+      font-family: "Poppins", sans-serif;
+      margin-top: 5px;
+      color: white;
+    }
+  }
+}
+}

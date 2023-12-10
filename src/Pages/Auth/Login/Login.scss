@@ -1,0 +1,253 @@
+@media screen  {
+    .account {
+        display: flex;
+        width: 100%;
+        min-height: 100vh;
+    
+        .account-left {
+            width: 60%;
+            min-height: 100vh;
+        }
+    
+        .account-right {
+            width: 40%;
+            min-height: 100vh;
+            background-color: #fff;
+            border-radius: 7rem 0 0 7rem;
+            
+            .header {
+                display: flex;
+                align-items: center;
+                gap: 1rem;
+            }
+        }
+    }
+    .login {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+        .login-area {
+            width: 100%;
+            padding: 16rem 3rem;
+    
+            .title {
+                color: #089BAB;
+                font-family: Prompt Medium;
+                font-size: 38px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+                letter-spacing: 0.5px;
+                }
+    
+        }
+    
+    
+        // .login-img {
+        //     width: 60%;
+        //     height: 100%;
+        //     position: relative;
+        //     min-height: 100vh;
+        //     background-image: url(../../../Images/login-register-bg.png);
+        //     height: 1024px;
+            
+        //     img {
+        //         width: 100%;
+        //         height: 100%;
+        //     }
+        // }
+    
+    //     .login-area {
+    //         display: flex;
+    //         flex-direction: column;
+    //         // justify-content: center;
+    //         // align-items: center;
+    //         // height: 1024px;
+    //         // height: 100%;
+    //         gap: 3rem;
+    //         width: 40%;
+    //         position: absolute;
+    //         right: 7rem;
+    //         border-radius: 7rem 0 0 7rem;
+    //         padding: 16rem 12rem 16rem 6rem;
+    //         background-color: #fff;
+    
+    //         .header {
+    //             display: flex;
+    //             justify-content: flex-start;
+    //             align-items: center;
+    
+    //             .title {
+    //                 color: #089BAB;
+    //                 font-family: Prompt Medium;
+    //                 font-size: 38px;
+    //                 font-style: normal;
+    //                 font-weight: 500;
+    //                 line-height: normal;
+    //                 letter-spacing: 0.5px;
+    //                 margin-left: 12px;
+    //             }
+    //         }
+    //     }
+    // }
+    
+    
+     .login-password {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        margin-top: 9rem;
+    
+        .login-password-tittle{
+            color: #089BAB;
+            font-family: sans-serif;
+            font-size: 28px;
+            // margin-top: 30px;
+        }
+    
+        .login-form {
+            display: flex;
+            flex-direction: column;
+        }
+    
+        .login-password-text{
+            color: #089BAB;
+            font-size: 12px;
+            margin-top: 20px;
+        }
+     }
+    // .login-password{
+    //     width: 100%;
+    //     // min-height: 79vh;
+    //     margin-top: 120px;
+    //     .login-password-tittle{
+    //         color: #089BAB;
+    //         font-family: sans-serif;
+    //         font-size: 28px;
+    //         margin-top: 30px;
+    //     }
+    //     .login-input{
+           
+    //         width:413px;
+    //         height:78px;
+    //         border: none;
+    //         outline: none      
+    //     }
+    
+    //     .login-input::placeholder{
+    //         font-size: 18px;
+    //         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    //     }
+    
+    //     .login-input:focus {
+    //         border-bottom: 1px solid #121A2D; 
+    //       }
+    
+    
+    //       .login-password-text{
+    //         color: #089BAB;
+    //         font-size: 18px;
+    //         margin-top: 20px;
+    //       }
+    // }
+    
+    .forgote-password-link{
+        color: #089BAB;
+        font-size: 17px;
+        text-decoration: none;
+        text-align: end;
+    }
+    .login-input{
+           
+        // width:413px;
+        // height:78px;
+        padding: 1rem 1rem 1rem 0;
+        border: none;
+        outline: none;
+        border-bottom: 1px black solid;     
+        margin-bottom: 1.6rem;
+        }
+    
+    .buttons {
+        width: 100%;
+        margin-top: 10rem;
+    }
+
+    .login-box{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        background-color: #089BAB;
+        color: #FFFFFF;
+        border: 0;
+        border-radius: 14px;
+        padding: 1rem 2rem;
+        text-decoration: none;
+        cursor: pointer;
+    }
+    
+    
+    
+    .login-text-signup{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .login-text{
+            color: #414857;
+            font-size: 14px;
+            font-family: 'Times New Roman', Times, serif;
+            // text-align: center;
+        }
+        .login-link{
+            color: #089BAB;
+            font-size: 14px;
+            margin-left: 0.5rem;
+            text-decoration: none;
+        }
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .account {
+        display: flex;
+        width: 100%;
+        min-height: 100vh;
+    
+        .account-left {
+            display: none;
+            width: 60%;
+            min-height: 100vh;
+        }
+        
+        .account-right {
+            width: 100%;
+            min-height: 100vh;
+            background-color: #fff;
+            border-radius: 0;  
+        }
+    }
+    .login {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+        .login-area {
+            width: 100%;
+            padding: 10rem;
+    
+            .title {
+                color: #089BAB;
+                font-family: Prompt Medium;
+                font-size: 38px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+                letter-spacing: 0.5px;
+                }
+    
+        }
+    
+}
+}}
