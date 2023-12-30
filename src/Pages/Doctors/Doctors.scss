@@ -1,0 +1,1051 @@
+@media screen and (min-width: 992px) {
+.scrollbarhidden {
+    overflow-y: hidden;
+    width: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    padding: 4.8rem 0;
+    gap: 3rem;
+    h4{
+        color: #089BAB;
+        font-family: Poppins;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 400;
+         line-height: normal;
+        letter-spacing: 0.7px;   
+        margin-right: 8rem;
+    }
+}
+
+.datebox{
+    width: 80%;
+    height: 40px;
+ 
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.datetext{
+    color: #888C96;
+
+text-align: start;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+
+
+.doctorsdatebox{
+    width: 75%;
+ 
+    border-radius: 30px;
+background: #FFF;
+box-shadow: 0px 42px 44px 0px rgba(120, 146, 141, 0.12);
+display: flex;
+align-items: center;
+flex-direction: column;
+ gap: 2rem;
+
+
+}
+
+.doctorinfobox{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 80%;
+    margin-top: 2rem;
+}
+
+.doctorsnamesurname{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+ 
+    h6{
+        color: #000;
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+    }
+    p{
+        color: #888C96;
+font-family: Poppins;
+font-size: 12px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+    }
+}
+
+.doctorinfoafter{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 1rem;
+    width: 80%;
+    h5{
+        color: #000;
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+    }
+    p{
+        color: #888C96;
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+    }
+}
+
+.doctordatetime{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.doctortimebox{
+
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    h6{
+        color: #089BAB;
+        font-family: Poppins;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    p{
+        color: #000;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    }
+}
+
+.doctorseedetails{
+    display: flex;
+    justify-content: flex-end;
+    width: 80%;
+    margin-bottom: 1rem;
+}
+
+.doctorseedetailstextandbox{
+      width: 80%;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      h5{
+        color: #089BAB;
+        text-align: center;
+        font-family: Poppins;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        letter-spacing: 0.45px;
+        cursor: pointer;
+      }
+
+}
+
+.doctorseedetailsclickebox{
+    padding: 1rem;
+    border-radius: 16px;
+    background: #CEEBEE;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 1rem;
+}
+
+
+
+//doctorsinformation doctorsinformationdoctorsinformationdoctorsinformationdoctorsinformationdoctorsinformationdoctorsinformationdoctorsinformationdoctorsinformation
+
+
+
+.doctorsdinformationbody{
+    width: 60%;
+    border-radius: 70px 0px 0px 70px;
+    background-color: white;
+    padding: 50px;
+    right: 0px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 4.5rem;
+    
+    p{
+        color: #888C96;
+
+font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.6px;
+    }
+}
+
+
+.doctorssearchbox{
+    width: 86%;
+  
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.doctorssearchbutton{
+    border-radius: 16px;
+    background: #CEEBEE;
+    padding: 2rem;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.doctorssearch{
+    width: 80%;
+    border: none; 
+    outline: none;
+    border-bottom: 1px solid #9CD7DD;
+    margin-top: 1rem;
+}
+
+.doctorssearch::placeholder {
+    color: #089BAB;
+
+font-family: Poppins;
+font-size: 19px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.doctorsserctors{
+    width: 86%;
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.doctorssectorstype{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.doctorphotoandname{
+    width: 50%;
+    display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+gap: 1rem;
+cursor: pointer;
+p{
+    color: #888C96;
+text-align: center;
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+letter-spacing: 0.5px;
+}
+h5{
+    color: #121A2D;
+text-align: center;
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+}
+
+
+.doctorssectorsbox{
+    width: 38%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+
+.doctorsdentalbox{
+    width: 100px;
+    height: 100px;
+    border-radius: 28px;
+background: #CEEBEE;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.doctorssurgeon{
+    width: 100px;
+    height: 100px;
+    border-radius: 28px;
+    border: 1px solid #089BAB;
+    cursor: pointer;
+display: flex;
+justify-content: center;
+align-items: center;
+p{
+    color: #089BAB;
+text-align: center;
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.35px;
+}
+}
+
+.doctorssectrotypetwo{
+    width: 57%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  flex-wrap: wrap;
+    gap: 0.4rem;
+}
+
+.doctorsheart{
+    width: 100px;
+    height: 100px;
+  
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 28px;
+background: #FFF;
+box-shadow: 0px 12px 24px 0px rgba(120, 146, 141, 0.12);
+}
+
+.doctorsoncolog{
+    padding: 3rem;
+    flex-shrink: 0;
+    border-radius: 28px;
+background: #CEEBEE;
+p{
+    color: #089BAB;
+text-align: center;
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.35px;
+}
+}
+
+
+.doctorimmunologistbox{
+    padding: 2rem 3rem;
+    border-radius: 28px;
+background: #CEEBEE;
+
+display: flex;
+   justify-content: space-between;
+align-items: center;
+}
+
+
+.blackdoctorinfo{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+ 
+    margin-left: 1rem;
+    h6{
+        color: #089BAB;
+        font-family: Poppins;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+    p{
+        color: rgba(8, 155, 171, 0.80);
+        font-family: Poppins;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+    }
+}
+
+
+.doctorphysiologist{
+  padding: 3rem 1.3rem;
+  border-radius: 28px;
+border: 1px solid #089BAB;
+background: #FFF;
+p{
+    color: #089BAB;
+text-align: center;
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.35px;
+}
+}
+
+
+
+
+.treamenttext{
+    color: #089BAB;
+font-family: Poppins;
+font-size: 28px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.7px;
+text-align: start;
+}
+
+
+.doctorbox{
+    border-radius: 28px;
+    background: red;
+    box-shadow: 0px 12px 24px 0px rgba(120, 146, 141, 0.12);
+width: 216px;
+height: 313px;
+flex-shrink: 0;
+}
+
+.sliderBack {
+    width: 100%;
+}
+.doctorsslider{
+    width: 216px;
+   height: 313px;;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1.2rem;
+    border-radius: 28px;
+    background: #FFF;
+    box-shadow: 0px 12px 24px 0px rgba(120, 146, 141, 0.12);
+    h6{
+        color: #121A2D;
+text-align: center;
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+    }
+    p{
+        color: #888C96;
+text-align: center;
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+letter-spacing: 0.5px;
+    }
+}
+
+.doctorslidertext{
+    color: #888C96;
+text-align: center;
+font-family: Poppins;
+font-size: 10px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+margin-top: 3rem;
+}
+
+
+
+
+// doctorallergistinformation doctorallergistinformation doctorallergistinformation doctorallergistinformation doctorallergistinformation
+
+
+
+
+
+.doctorallergistinformation{ width: 60%;
+    border-radius: 70px 0px 0px 70px;
+    background-color: white;
+    padding: 50px;
+    right: 0px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 4.5rem;
+    }
+    
+    .doctorstypetextbox{
+        width: 86%; 
+        display: flex;
+        p{
+            color: #089BAB;
+    font-family: Poppins;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.7px;
+        }
+    
+    }
+    .doctorstypetext{
+        width: 35%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        cursor: pointer;
+        p{
+            margin-left: 1rem;
+            color: #888C96;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.6px;
+        }
+    }
+    
+    
+    .doctorslocationandday{
+        width: 86%;
+        display: flex;
+        justify-content: space-between;
+        p{
+            color: #888C96;
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 0.375px;
+        }
+    }
+    
+    
+    
+    
+    
+    .doctorsweekdatebox{
+       width: 94%;
+        display: flex;
+        align-self: center;
+        justify-content: space-between;
+    
+    }
+    
+    .doctorsimageandnamesurname{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        width: 53%;
+    
+    }
+    .docnamesurname{
+      
+        display:  flex;
+       
+        justify-content: flex-start;
+        flex-direction: column;
+        gap: 1rem;
+     
+        h6{
+            color: #000;
+            text-align: start;
+            font-family: Poppins;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+        p{
+            color: #888C96;
+            font-family: Poppins;
+            font-size: 13px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: normal;
+        }
+    }
+    
+    .weekbox{
+        width: 32%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    
+    .buttonbox{
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 12px;
+    border: 1px solid #089BAB;
+    
+    background: #FFF;
+        padding: 1.2rem;
+        p{
+            color: #121A2D;
+    text-align: center;
+    font-family: Prompt Light;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+        }
+    }
+    
+    .doctorsdaysofadmission{
+        color: #888C96;
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 0.375px;
+    margin-right: 3.5rem;
+    }
+    
+    
+    
+    
+    
+
+    // YourDoctor YourDoctor YourDoctor YourDoctor YourDoctor YourDoctor YourDoctor YourDoctor YourDoctor YourDoctor
+
+
+.YourDoctor{ width: 60%;
+   
+    border-radius: 70px 0px 0px 70px;
+    background-color: white;
+    padding: 50px;
+    right: 0px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 4.5rem;
+}
+
+.yourdoctortextinfo{
+    width: 86%;
+    display: flex;
+    align-items: flex-start;
+    p{
+        color: #089BAB;
+font-family: Poppins;
+font-size: 28px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.7px;
+    }
+}
+
+
+.yourdoctordatetime{
+    width: 86%;
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.doctorphotoandnamebox{
+    width: 35%;
+    display: flex;
+
+align-items: center;
+flex-direction: column;
+gap: 1rem;
+p{
+    color: #888C96;
+text-align: center;
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+letter-spacing: 0.5px;
+}
+h5{
+    color: #121A2D;
+text-align: center;
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+}
+
+
+
+.doctorappointetdatetime{
+    width: 65%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+
+.doctordatetextandbutton{
+    width: 46%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    justify-content: flex-start;
+    margin-right: 1rem;
+    p{
+        color: #089BAB;
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+    }
+}
+
+
+.yearmonthbutton{
+    width: 100%;
+    height: 50%;
+    flex-shrink: 0;
+    border-radius: 16px;
+    border: 1px solid #089BAB;
+    background-color: white;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    p{
+        color: #121A2D;
+font-family: Poppins;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-left: 1rem;
+    }
+    img{
+        margin-left: 1rem;
+    }
+}
+
+.daysboxes{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.daybox{
+    padding: 1.3rem;
+    border-radius: 13px;
+background: rgba(8, 155, 171, 0.20);
+display: flex;
+justify-self: center;
+align-items: center;
+cursor: pointer;
+p{
+    color: #089BAB;
+font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.5px;
+}
+}
+
+
+.doctorsdatainformation{
+    width: 86%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.doctorscommentbox{
+    width: 60%;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+   
+    gap: 1.4rem;
+}
+
+.doctorsinfowightbloodtext{
+    width: 75%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.doctorinfocatecorybox{
+    padding: 2rem;
+    margin-top: 3rem;
+    margin-right: 2rem;
+    display: flex;
+    flex-direction: column;
+
+    gap: 1rem;
+    h6{
+        color: #089BAB;
+        font-family: Poppins;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    p{
+        color: #121A2D;
+        font-family: Poppins;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+}
+
+
+
+
+.doctorscommentandtextbox{
+    width: 60%;
+    flex-direction: column;
+    display: flex;
+    justify-content: flex-start;
+    gap: 1.4rem;
+    p{
+        color: #089BAB;
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-top: 2.2rem;
+    }
+}
+
+
+.doctorcommentandbuttonarea{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+
+.doctorcommentinput{
+ padding: 1.3rem 2rem;
+flex-shrink: 0;
+border-radius: 16px;
+border: 1px solid #089BAB;
+color: #888C96;
+font-family: Poppins;
+font-size: 12px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+text-align: center;
+}
+
+.doctorbuttondont{
+padding: 1.5rem 2.6rem;
+flex-shrink: 0;
+border-radius: 10px;
+background-color: #089BAB;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-left: 1rem;
+color: #FFF;
+text-align: center;
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 0.35px;
+}
+
+
+
+.textandchexboxarea{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 2rem;
+    p{
+        color: #089BAB;
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-left: 2rem;
+    }
+    
+}
+
+.textandchexboxareacheckbox{
+width: 30px;
+height: 30px;
+flex-shrink: 0;
+border: 1px #089BAB;
+
+}
+
+
+
+.choosepagearea{
+    width: 96%;
+    display: flex;
+    margin-top: 3rem;
+    align-items: center;
+    justify-content: flex-end;
+    cursor: pointer;
+    p{
+        color: #FEAD54;
+font-family: Poppins;
+font-size: 22px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-transform: uppercase;
+
+    }
+}
+
+
+.choossepagebutton{
+padding: 1.3rem;
+flex-shrink: 0;
+
+border-radius: 16px;
+background: #FEAD54;
+display: flex;
+align-items: center;
+justify-content: center;
+margin-left: 2rem;
+}
+}
+
+
+
+// doctors modal
+
+
+ .doctorsmodaltext{
+    width: 100%;
+  
+    
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    h6{
+        color: #121A2D;
+text-align: center;
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 27px; /* 135% */
+    }
+    p{
+        color: #089BAB;
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 27px;
+    }
+ }
+
+ .doctorsmodalshours{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+ }
+
+
+ .doctorsmodalhour{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 16px;
+    cursor: pointer;
+background: #FEF6ED;
+p{
+    color: #FEAD54;
+text-align: center;
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+ }
+
+ .doctorsmodalhour:hover{
+    background: #FEAD54;
+    p{
+        color: #FFF;
+    }
+ }
+
+ .chsdt{
+    color: #FFF;
+text-align: center;
+font-family: Poppins;
+font-size: 12px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+ }

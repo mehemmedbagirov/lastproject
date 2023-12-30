@@ -5,7 +5,7 @@ import Dashboard from "./Pages/Dashboard/Dashboard"
 import Register from "./Pages/Auth/Register/Register";
 import Register2 from "./Pages/Auth/Register2/Register2";
 // import Contact from "./Pages/Contact/Contact";
-// import Doctors from "./Pages/Doctors/Doctors";
+import Doctors from "./Pages/Doctors/Doctors";
 // import Tracker from "./Pages/Tracker/Tracker";
 import { IntlProvider } from 'react-intl';
 import Azerbaijan from './Language/Az.json'; // import your translation files
@@ -20,7 +20,7 @@ function App() {
   };
   //const messages = Azerbaijan; // get the translations for the locale
   const navigate = useNavigate();
-  const [Auth, setAuth] = useState(false)
+  const [Auth, setAuth] = useState(true)
   const [path, setPath] = useState("/")
   // // console.log("Render olundu");
 
@@ -60,8 +60,8 @@ function App() {
 
       <Routes>
         <Route path="/" element={<Dashboard/>} />
-        {/* <Route path="/doctors" element={<Doctors />} />
-        <Route path="/Contact" element={<Contact />} /> */}
+        <Route path="/doctors" element={<Doctors />} />
+        {/* <Route path="/Contact" element={<Contact />} />  */}
 
         {/* <Route path="/contact" element={<Contact/>}/>
           <Route path="/doctors" element={<Doctors/>}/>
