@@ -4,7 +4,7 @@ import Login from "./Pages/Auth/Login/Login";
 import Dashboard from "./Pages/Dashboard/Dashboard"
 import Register from "./Pages/Auth/Register/Register";
 import Register2 from "./Pages/Auth/Register2/Register2";
-// import Contact from "./Pages/Contact/Contact";
+import Contact from "./Pages/Contact/Contact";
 import Doctors from "./Pages/Doctors/Doctors";
 // import Tracker from "./Pages/Tracker/Tracker";
 import { IntlProvider } from 'react-intl';
@@ -61,7 +61,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Dashboard/>} />
         <Route path="/doctors" element={<Doctors />} />
-        {/* <Route path="/Contact" element={<Contact />} />  */}
+        <Route path="/Contact" element={<Contact />} /> 
 
         {/* <Route path="/contact" element={<Contact/>}/>
           <Route path="/doctors" element={<Doctors/>}/>
