@@ -13,16 +13,16 @@ import English from './Language/en.json'
 import LanguageSelector from "./Language/LanguageSelectors";
 
 function App() {
-  const [locale, setLocale] = useState('en'); // state for current locale
+  const [locale, setLocale] = useState('en'); 
 
   const handleLanguageChange = (selectedLocale) => {
     setLocale(selectedLocale);
   };
   //const messages = Azerbaijan; // get the translations for the locale
   const navigate = useNavigate();
-  const [Auth, setAuth] = useState(true)
+  const [Auth, setAuth] = useState(false)
   const [path, setPath] = useState("/")
-  // // console.log("Render olundu");
+  
 
   useEffect(() => {
     if (Auth == false) {
@@ -32,9 +32,11 @@ function App() {
       setPath("/")
       navigate(path);
     }
+  // console.log(token);
+
   }, [Auth,path]);
  
-  
+
   let lang;
   if (locale === "en"){
       lang = English;
@@ -43,7 +45,7 @@ function App() {
   }
 
   console.log(lang["Header"]);
-  
+  // console.log(email);
 
   return (
     <>
@@ -51,7 +53,7 @@ function App() {
       <LanguageSelector onLanguageChange={handleLanguageChange} />
       { !Auth? 
       <Routes>
-        <Route path="/login" element={<Login />} />
+        <Route path="/login" element={<Login setAuth={setAuth} />} />
         <Route path="/register" element={<Register />} />
         <Route path="/register2" element={<Register2 />} />
       </Routes>
@@ -61,7 +63,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Dashboard/>} />
         <Route path="/doctors" element={<Doctors />} />
-        <Route path="/Contact" element={<Contact />} /> 
+        <Route path="/Contact" element={<Contact />} />
 
         {/* <Route path="/contact" element={<Contact/>}/>
           <Route path="/doctors" element={<Doctors/>}/>
